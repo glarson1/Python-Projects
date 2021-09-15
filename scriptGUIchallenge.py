@@ -12,7 +12,7 @@ class ParentWindow(Frame): #Frame is the parent class within tkinter
         self.master.geometry('{}x{}'.format(700, 200)) 
         self.master.title('Check files')
         
-        self.btnBrowse1 = Button(self.master, text='Browse...', width=15, height=1, command=showPath())
+        self.btnBrowse1 = Button(self.master, text='Browse...', width=15, height=1, command=showPath)
         self.btnBrowse1.grid(row=0, column=0,padx=(20,0), pady=(40,0))
 
 
